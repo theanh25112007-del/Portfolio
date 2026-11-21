@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phan Thế Anh – Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<nav class="nav">
+  <a class="logo" href="#top">Phan Thế Anh<span>.</span></a>
+  <div class="links">
+    <a href="#about">Giới thiệu</a><a href="#skills">Kỹ năng</a><a href="#projects">Dự án</a><a href="#contact">Liên hệ</a>
+  </div>
+</nav>
+
+<header class="hero wrap" id="top">
+  <div class="hero-text">
+    <h1><span class="grad">Phan Thế Anh</span></h1>
+    <p class="role">Sinh viên CNTT · Lập trình C++</p>
+    <p class="lead">Mình mới bắt đầu học lập trình, đang làm quen với C++ và lập trình hướng đối tượng. Đây là nơi mình lưu lại những gì đã học và đã làm.</p>
+    <div class="btns">
+      <a class="btn fill" href="#projects">Xem dự án</a>
+      <a class="btn" href="#contact">Liên hệ mình</a>
+    </div>
+  </div>
+  <!-- Ảnh đại diện cố định: thay file images/avatar.jpg để cập nhật ảnh. -->
+  <div class="hero-img">
+    <div class="photo avatar"><img src="images/avatar.jpg" alt="Ảnh đại diện" loading="eager"><span class="ph"><b>PTA</b></span></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="about" class="reveal">
+    <h2>Giới thiệu <span class="grad">bản thân</span></h2>
+    <div class="about">
+      <p>Mình là Phan Thế Anh, sinh viên đại học. Mình thích tìm hiểu cách một chương trình được xây dựng từng bước, từ ý tưởng đến khi chạy được. Mục tiêu của mình là học chắc nền tảng C++ và cấu trúc dữ liệu để làm được những sản phẩm lớn hơn.</p>
+      <ul class="info">
+        <li><span>Họ tên</span>Phan Thế Anh</li>
+        <li><span>Điện thoại</span><a href="tel:0977390143">0977390143</a></li>
+        <li><span>Email</span><a href="mailto:theanh25112007@gmail.com">theanh25112007@gmail.com</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills" class="reveal">
+    <h2>Kỹ năng <span class="grad">chuyên môn</span></h2>
+    <div class="grid">
+      <div class="card"><div class="ico">💻</div><h3>C++ &amp; OOP</h3><p>Lớp, đối tượng, kế thừa, đa hình qua các bài tập và đồ án.</p><span class="lvl">Đang học</span></div>
+      <div class="card"><div class="ico">🧩</div><h3>Cấu trúc dữ liệu &amp; giải thuật</h3><p>Đệ quy, sắp xếp, ngăn xếp và cách áp dụng vào bài toán.</p><span class="lvl">Đang học</span></div>
+      <div class="card"><div class="ico">🎨</div><h3>HTML &amp; CSS</h3><p>Xây dựng trang web cá nhân và thiết kế giao diện cơ bản.</p><span class="lvl">Mới bắt đầu</span></div>
+    </div>
+  </section>
+
+  <!-- Ảnh dự án cố định: thay project1.jpg, project2.jpg, project3.jpg trong thư mục images. -->
+  <section id="projects" class="reveal">
+    <h2>Dự án <span class="grad">tiêu biểu</span></h2>
+    <div class="grid">
+      <article class="card proj">
+        <div class="photo shot"><img src="images/project1.jpg" alt="Ảnh dự án 1" loading="lazy"><span class="ph">🎓</span></div>
+        <h3>Quản lý thí sinh tuyển sinh</h3><p>Chương trình C++ quản lý hồ sơ thí sinh đại học, áp dụng lập trình hướng đối tượng.</p>
+        <div class="chips"><span>C++</span><span>OOP</span></div>
+      </article>
+      <article class="card proj">
+        <div class="photo shot"><img src="images/project2.jpg" alt="Ảnh dự án 2" loading="lazy"><span class="ph">🌧️</span></div>
+        <h3>Hứng nước mưa</h3><p>Đồ án Cấu trúc dữ liệu và giải thuật: bài toán Trapping Rain Water bằng ngăn xếp đơn điệu.</p>
+        <div class="chips"><span>C++</span><span>Ngăn xếp</span></div>
+      </article>
+      <article class="card proj">
+        <div class="photo shot"><img src="images/project3.jpg" alt="Ảnh dự án 3" loading="lazy"><span class="ph">🧑‍💻</span></div>
+        <h3>Trang hồ sơ cá nhân</h3><p>Trang portfolio giới thiệu bản thân, kỹ năng và các dự án đã làm.</p>
+        <div class="chips"><span>HTML</span><span>CSS</span><span>JS</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="reveal">
+    <h2>Liên hệ <span class="grad">với mình</span></h2>
+    <p class="contact-line">📞 <a href="tel:0977390143">0977390143</a> &nbsp;·&nbsp; ✉️ <a href="mailto:theanh25112007@gmail.com">theanh25112007@gmail.com</a></p>
+    <form id="f" class="card form">
+      <input id="n" placeholder="Họ và tên" required>
+      <input id="e" type="email" placeholder="Email của bạn" required>
+      <textarea id="m" rows="4" placeholder="Nội dung tin nhắn" required></textarea>
+      <button class="btn fill" type="submit">Gửi tin nhắn ✉️</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <strong>Phan Thế Anh</strong> · 0977390143 · theanh25112007@gmail.com<br>
+  © 2026 Phan Thế Anh · <a href="#top">Lên đầu trang ↑</a>
+</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
